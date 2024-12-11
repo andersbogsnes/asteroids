@@ -1,0 +1,25 @@
+# Ignore all log files and directories
+log/*
+logs/*
+
+# Ignore all coverage reports
+*.cov
+*.xml
+*.html
+
+# Ignore all build artifacts
+build/
+dist/
+*.egg-info/
+htmlcov/
+junitxml/
+logs/
+reports/
+tests/
+
+# Ignore all Python virtual environments
+venv/
+__pycache__/
+# Ignore all compiled files and directories
+*.pyc
+*.pyo
